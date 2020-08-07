@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="800px"
+        android:background="#0A7CDD"
+        android:orientation="vertical">
+    <ImageView
+        android:layout_marginTop="90px"
+        android:layout_width="wrap_content"
+        android:layout_height="500px"
+        android:src="@drawable/cv"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="80px"
+        android:text="Nama"
+        android:textSize="13pt"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="950px"
+        android:layout_height="1020px"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_marginTop="50px"
+        android:background="#0096FF">
+        <EditText
+            android:layout_width="800px"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30px"
+            android:hint="Nama"/>
+        <EditText
+            android:layout_width="800px"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:hint="Password"/>
+        <EditText
+            android:layout_width="800px"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:hint="Ulang Password"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="daftar" />
+    </LinearLayout>
+</LinearLayout>
